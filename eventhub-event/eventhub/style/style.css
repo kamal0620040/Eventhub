@@ -6,6 +6,7 @@ body{
     background-color: #FEFFEC;
     position:fixed;
     width: 100%;
+    z-index: 1000;
     }
     .navbar-nav{
       margin-right:50px;
@@ -66,22 +67,28 @@ body{
 
     .events{
         padding-top: 80px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .row{
+      padding-top: 5%;
     }
 
     .topic-events{
-      padding-left: 10%;
+      padding-left: 5%;
       padding-top: 3%;
-      padding-bottom: 3%;
+     
     }
 
     .events-list{
-      padding-left: 10%;
+      padding-left: 5%;
       position: relative;
     }
     
     .card{
       background-color: #3686D1;
       color: white;
+
     }
 
     .event-date{
@@ -98,6 +105,11 @@ body{
       left: 25%;
       bottom: 30%;
     }
+    .event-date-text-year{
+      position: absolute;
+      left: 35%;
+      bottom: 10%;
+    }
 
     .card-title{
       text-decoration: underline;
@@ -111,4 +123,13 @@ body{
     }
     .learn:hover{
       color: yellow;
+    }
+
+
+    /*next- page*/
+
+    .next-event{
+      text-align: center;
+      line-height: 5;
+      margin-top: 3%;
     }
