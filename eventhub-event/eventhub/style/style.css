@@ -1,8 +1,9 @@
 body{
     background-color: #FFFFFF;
+
     }
     .navbar{
-    
+
     background-color: #FEFFEC;
     position:fixed;
     width: 100%;
@@ -16,7 +17,7 @@ body{
     }
     .navbar-brand:hover{
       font-weight: bold;
-    
+
     }
     .navbar-logo-img{
       margin-right: 10px;
@@ -26,16 +27,16 @@ body{
     .nav-item{
       margin-left: 5px;
     }
-    
-    
+
+
     .btn-nav{
     background-color: #6b6bff;
-    
+
     color: white;
       border-radius: 14px;
     border:none;
       padding: 0;
-    
+
       width:5rem;
       height: 2rem;
       margin-top: 4px;
@@ -45,14 +46,14 @@ body{
       background-color: blue;
       font-weight: bold;
       width: 5.3rem;
-    
+
     }
-    
+
     .nav-item-nv:hover{
-    
+
       font-weight: bold;
     font-size: 17px;
-    
+
     }
     .navbar-profile-img{
         margin-right: 10px;
@@ -62,33 +63,37 @@ body{
       width: 10px;
     }
 
-
+.topic-events{
+  margin-left: 3%;
+  font-size: 5rem;
+}
     /*events*/
 
     .events{
         padding-top: 80px;
-        padding-left: 5%;
-        padding-right: 5%;
+
+        /* padding-right: 100px; */
     }
     .row{
       padding-top: 5%;
+      margin-left:20px;
     }
 
-    .topic-events{
+    /* .topic-events{
       padding-left: 5%;
       padding-top: 3%;
-     
-    }
 
-    .events-list{
-      padding-left: 5%;
+    } */
+
+    /* .events-list{
+      padding-left: ;
       position: relative;
-    }
-    
+    } */
+
     .card{
       background-color: #3686D1;
       color: white;
-
+width: 18rem;
     }
 
     .event-date{
@@ -133,3 +138,45 @@ body{
       line-height: 5;
       margin-top: 3%;
     }
+    @media screen and (max-width: 1000px){
+      .card{
+        margin-bottom: 20px;
+      }
+    }
+@media screen and (min-width: 1200px) and (max-width: 1250px) {
+.card{
+  transform: scale(0.8);
+}
+.row{
+  margin-left: -30px;
+}
+
+ }
+ @media screen and (min-width: 992px) and (max-width: 1200px) {
+ .card{
+   transform: scale(0.7);
+ }
+.row{
+  margin-left: -60px;
+}
+
+  }
+  @media screen and (max-width: 992px){
+    .row{
+      position: relative;
+      left:5%;
+    }
+  }
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .row{
+    position: relative;
+    left:25%;
+  }
+}
+
+  @media screen and (max-width: 600px){
+    .row{
+      position: relative;
+      left:13%;
+    }
+  }
