@@ -39,6 +39,18 @@ margin-left: -8px;
     font-size: 17px;
 
     }
+    .search{
+      margin-right: 5px;
+    }
+    @media screen and (max-width: 992px){
+      .search{
+        width: 300px;
+      }
+    }
+
+    .nav-item-nv-aboutus:hover{
+      margin-left: -9.5px;
+    }
     .navbar-profile-img{
       margin-right: 5px;
       margin-left: 10px;
@@ -163,6 +175,9 @@ margin-left: -8px;
       text-decoration-color: white;
       padding-top: 15%;
     }
+    .verified{
+      margin-left: 15px;
+    }
     .learn{
       float: right;
       text-decoration: none;
@@ -172,7 +187,17 @@ margin-left: -8px;
       color: yellow;
     }
 
+.rating{
+  transform: scale(1.2);
 
+  position: absolute;
+  left: 28px;
+}
+.rating-star{
+  position: relative;
+  bottom:3px;
+  right: 5px;
+}
     /*next- page*/
 
     .next-event{
