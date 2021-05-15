@@ -173,10 +173,11 @@ margin-left: -8px;
     .card-title{
       text-decoration: underline;
       text-decoration-color: white;
-      padding-top: 15%;
+      padding-top: 25%;
     }
     .verified{
-      margin-left: 15px;
+      margin-left: 10px;
+      padding-bottom: 5%;
     }
     .learn{
       float: right;
