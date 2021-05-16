@@ -198,13 +198,6 @@ margin-left: -8px;
   bottom:3px;
   right: 5px;
 }
-    /*next- page*/
-
-    .next-event{
-      text-align: center;
-      line-height: 5;
-      margin-top: 2%;
-    }
 
 
     @media screen and (max-width: 1000px){
@@ -278,9 +271,15 @@ z-index: -1;
   }
 
 }
+/*next- page*/
+
 .next-event{
-  margin-bottom: 100px;
+  text-align: center;
+  line-height: 5;
+  margin-top: 2%;
+  margin-bottom:80px;
 }
+
 /* footer */
 footer{
   color:white;
